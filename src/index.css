@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Grand+Hotel&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  overflow-x: hidden;
+}
+
+.instagram-font {
+  font-family: 'Grand Hotel', cursive;
+  font-size: 45px;
+  font-weight: 500;
+  color: #000;
+}
+
+#auth {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#auth .sign-up-box {
+  height: 550px;
+  width: 350px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 40px 30px;
+  text-align: center;
+}
+
+#auth .sign-up-box p {
+  font-size: 15px;
+  font-weight: 600;
+  color: #737373;
+}
+
+#auth .sign-up-box .signup-btn {
+  background-color: rgb(0, 149, 246);
+  color: #ffffff;
+  border: none;
+  padding: 8px;
+  width: 100%;
+  font-weight: 600;
+  font-size: 14px;
+  border-radius: 15px;
+}
+
+#auth .sign-up-box h6 {
+  font-size: 16px;
+  color: #737373;
+  position: relative;
+
+}
+
+#auth .sign-up-box h6:before {
+  content: "";
+  display: block;
+  width: 30%;
+  height: 2px;
+  background: rgba(0, 0, 0, 0.1);
+  left: 0;
+  top: 50%;
+  position: absolute;
+}
+
+#auth .sign-up-box h6:after {
+  content: "";
+  display: block;
+  width: 30%;
+  height: 2px;
+  background: rgba(0, 0, 0, 0.1);
+  right: 0;
+  top: 50%;
+  position: absolute;
+}
+
+#auth .sign-up-box input {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 2px;
+  width: 100%;
+  padding: 10px;
+  font-size: 12px;
+  margin-bottom: 6px;
+  background-color: #f5f5f5;
+}
+
+#auth a{
+  text-decoration: none;
+}
+/* #sign-up .sign-up-box .sign-up-submit {
+  background-color: rgb(0, 149, 246);
+} */
